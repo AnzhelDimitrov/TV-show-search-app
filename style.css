@@ -2,13 +2,55 @@ body {
     background-color:rgb(225, 217, 209,);
 }
 h1 {
-    font-size: 600%;
+    margin: 3rem;
+    font-size: 400%;
 }
 #main{
-    padding: 3% 0;
     text-align: center;
 }
-#tableContainer {
-    padding: 0 150px;
+
+#gridContainer {
+    width: 75%;
+}
+
+#searchResultMessage{
+    font-weight: normal;
+    font-style: italic;
+    margin: 2rem;
+}
+
+#searchForm {
+    align-content: center; 
+}
+
+#inputContainer{
+    width: 295px;
+    height: 38px;
+    border-radius: 25px;
+    border: solid;
+    border-width: thin;
+    border-color: gray;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+}
+
+#inputContainer > input {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.btn-round{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    }
+
+@media (max-width:800px){
+    h1 {
+        font-size: 250%;
+    }
 }
 
