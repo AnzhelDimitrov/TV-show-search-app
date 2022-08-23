@@ -27,7 +27,10 @@ h1 {
     width: 295px;
     height: 38px;
     border-radius: 25px;
-    border: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: none;
     border-width: thin;
     border-color: gray;
     display: flex;
@@ -41,12 +44,13 @@ h1 {
     padding-left: 10px;
 }
 
-.btn-round{
+#searchButton {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    }
+    z-index: 9;
+}
 
 @media (max-width:800px){
     h1 {
