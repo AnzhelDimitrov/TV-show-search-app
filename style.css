@@ -28,10 +28,7 @@ h1 {
     height: 38px;
     border-radius: 25px;
     border-top: solid;
-    border-bottom: solid;
-    border-left: solid;
-    border-right: none;
-    border-width: thin;
+    border: solid;
     border-color: gray;
     display: flex;
     align-items: center;
@@ -49,7 +46,6 @@ h1 {
     border-bottom-right-radius: 25px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    z-index: 9;
 }
 
 @media (max-width:800px){
