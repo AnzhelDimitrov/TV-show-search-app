@@ -27,8 +27,7 @@ h1 {
     width: 295px;
     height: 38px;
     border-radius: 25px;
-    border-top: solid;
-    border: solid;
+    border: thin;
     border-color: gray;
     display: flex;
     align-items: center;
